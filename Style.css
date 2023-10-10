@@ -1,0 +1,74 @@
+#head {
+	//border-style: solid;
+}
+
+#nav {
+	//border-style: solid;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 2.5px;
+	height: 20px;
+}
+
+div#nav h{
+	display: inline-block;;
+	margin-left: 25px;
+	color: purple;
+}
+
+.image {
+	display: inline-block;
+	//border-style: solid;
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+}
+
+.name {
+	display: inline-block;
+	//border-style: solid;
+	vertical-align: bottom;
+	font-size: 24px;
+} 
+
+#body {
+	//border-style: solid;
+	width: 900px;
+}
+
+.menu{
+	display: inline-block;
+	//border-style: solid;
+	border-right: solid;
+	width: 28%;
+	border-width: 2.5px;
+}
+
+div.menu h{
+	display: block;
+	margin: 20px;
+	color: purple;
+}
+
+.text{
+	display: inline-block;
+	vertical-align: top;
+	//border-style: solid;
+	width: 70%;
+}
+
+div.text p{
+	display: block;
+	margin: 20px;
+	color: blue;
+}
+
+div.box {
+	margin: 25px;
+	background: red;
+	border-style: solid;
+}
+
+div.box p{
+	text-align: center;
+}
