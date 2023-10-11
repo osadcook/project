@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="Style.css">
 <script src ="jquery-3.7.1.min.js"></script>
-<script src ="events.js"></script>
 
 <head>
 
@@ -16,23 +17,45 @@
 
 <div id ="nav">
 	<h>
-		<a href="Cats.html">Cats</a>
+		<a href="index.html">Skills</a>
 	</h>
 	<h>
-		<a href="Dogs.html">Dogs</a>
-	</h>
-	<h>
-		<a href="Project.html">Dogs</a>
+		<a href="Project.html">Project</a>
 	</h>
 </div>
 
 <div id = "body">
 	<div class = "box">
-		<div onmouseover="onEnter()">
+		<div onmouseenter="onEnter()">
   			<p id="enter">Move mouse here!</p>
 		</div>
 	</div>
+
+
+	<p>Type something here!</p>
+	<input type="text" onkeydown="onDown()">
+	<p id="down"></p>
+
+	<div class = "box">
+		<div onmouseover="onMove()">
+			<p>Wave mouse to count!</p>
+  			<p id="move"></p>
+		</div>
+	</div>
+
+	<button onclick="onClick2()"> Click me!</button>
+	<p id="click2"></p>
+
+	<button onclick="onClick1()"> Or me! I count manually!</button>
+	<p id="click1"></p>
+
+	<button id="get">Post Program</button>
+	<p id="name"></p>
+	<p id="program"></p>
+
 </div>
+
+<script src ="events.js"></script>
 
 </body>
 </html>
